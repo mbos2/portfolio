@@ -33,7 +33,7 @@ nav li {
 }
 
 nav {
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 .intro welcome {
@@ -131,3 +131,16 @@ nav li ul a:hover {
     font-weight: bold;
     list-style: none;
 }
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: violet;
+    }
+    nav li {
+        text-align: center;
+    }
+    .Welcome{
+        font-size: 4rem;
+    }
+   
+  }
