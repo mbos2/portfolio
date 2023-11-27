@@ -292,4 +292,15 @@ h2{
     left: 40px;
     bottom: -2px
    }
+   .nav{
+    padding: 100px;
+   }
+}
+
+a.icon{
+    background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
