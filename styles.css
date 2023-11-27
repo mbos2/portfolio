@@ -274,10 +274,10 @@ h2{
 }
 }
 
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 390px) {
    h2{
     position: relative;
-    left: -350px;
+    left: -370px;
     top: 2px;
     font-size: 20px;
     width:  270px
