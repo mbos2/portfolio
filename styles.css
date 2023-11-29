@@ -1,4 +1,4 @@
-body {
+#body_page {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(23, 162, 164);
 }
@@ -9,6 +9,7 @@ body {
     bottom: 0;
     z-index: -5;
 }
+
 
 nav li ul a {
     list-style: none;
@@ -39,7 +40,7 @@ nav li {
 
 }
 
-nav {
+nav{
     padding-top: 3%;
 }
 
@@ -57,7 +58,7 @@ nav {
 
 .other_page {
     text-align: center;
-    padding-top: 50px;
+    padding-top:100px;
     font-size: 5rem;
     color: #fff;
     text-decoration: underline;
@@ -122,25 +123,23 @@ nav li ul a:hover {
 
 .key_skills .programmer {
     position: relative;
-    align-items: center;
     width: 200px;
     height: 210px;
-    margin-left: 10%;
-    bottom: -100px;
-    left: 20px
+    margin-left: 6%;
+    top: 40px;
+    
 }
 
 .key_skills .prog_label {
     position: relative;
-    text-align: left;
-    margin-left: 10%;
+    margin-left: 95px;
+    top: 20px;
     bottom: -90px;
-    left: 20px
+    
 }
 
 h2 {
     position: relative;
-    width: 60%;
     border-radius: 5px;
     top: -100px;
     left: 150px;
@@ -154,7 +153,7 @@ h2 {
     background-color: #1cc99bd0;
     margin-left: 30px;
     margin-right: 20px;
-    top: -10px;
+    top: 10px;
     border: 5px solid black;
     border-radius: 10px;
 }
@@ -163,34 +162,89 @@ h2 {
     padding-bottom: 20px;
 }
 
-/* start here next time */
+
+/* Responsive design  */
 @media only screen and (min-width: 375px) {
     h2 {
         position: relative;
-        left: -330px;
-        top: 5px;
+        left: -380px;
+        top: -10px;
         font-size: 20px;
+        width: 700px;
     }
 
     .key_skills .programmer {
         position: relative;
         width: 150px;
-        left: 40px;
-        bottom: 10px
+        left: 65px;
+        top: -20px
     }
 
     .key_skills .prog_label {
         position: relative;
         font-size: 25px;
-        left: 45px;
-        bottom: 15px;
+        left: -10px;
+        top: 20px;
+        top: -50px;
     }
 }
 
-a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+@media only screen and (min-width: 566px) {
+    h2{
+        position: relative;
+        left: -250px;
+        top: -20px;
+        font-size: 25px;
+    }
+    .key_skills .programmer{
+        position: relative;
+        left: 125px;
+    }
+
+    .key_skills .prog_label{
+        position: relative;
+        left: 120px;
+    }
+
+    .nav li ul{
+        position: relative;
+        right: -20px;
+    }
+}
+
+@media only screen and (min-width: 1052px){
+    h2{
+        position: relative;
+        left: -10px;
+        top:   -120px;
+    }
+    .key_skills .programmer{
+        position: relative;
+        bottom: -150px;
+        left: 20px
+    }
+    .key_skills .prog_label{
+        position: relative;
+        bottom: -130px;
+        left: 25px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    h2{
+        position: relative;
+        left:  100px
+    }
+    .key_skills .programmer{
+        position: relative;
+        bottom: -100px
+    }
+    .key_skills .prog_label{
+        position: relative;
+        bottom: -50px;
+    }
+}
+
+#text{
+    text-align: right;
 }
