@@ -163,67 +163,16 @@ h2 {
 }
 
 
+#text{
+    text-align: right;
+}
+
+nav{
+    width: auto;
+}
+
 /* Responsive design  */
-@media only screen and (min-width: 360px) {
-    h2 {
-        position: relative;
-        left: -370px;
-        top: -10px;
-        font-size: 15px;
-        width: 650px;
-    }
-
-    .key_skills .programmer {
-        position: relative;
-        width: 150px;
-        left: 65px;
-        top: -20px
-    }
-
-    .key_skills .prog_label {
-        position: relative;
-        font-size: 25px;
-        left: -10px;
-        top: 20px;
-        top: -50px;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-    h2 {
-        position: relative;
-        left: -380px;
-        top: -10px;
-        font-size: 20px;
-        width: 700px;
-    }
-
-    .key_skills .programmer {
-        position: relative;
-        width: 150px;
-        left: 65px;
-        top: -20px
-    }
-
-    .key_skills .prog_label {
-        position: relative;
-        font-size: 25px;
-        left: -10px;
-        top: 20px;
-        top: -50px;
-    }
-}
-@media only screen and (min-width: 357px) {
-    h2 {
-        position: relative;
-        left: -320px;
-        top: -10px;
-        font-size: 20px;
-        width: 600px;
-    }
-
-}
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 480px) {
     h2 {
         position: relative;
         left: -340px;
@@ -243,66 +192,22 @@ h2 {
     }
 
 }
-@media only screen and (min-width: 566px) {
-    h2{
-        position: relative;
-        left: -250px;
-        top: -20px;
-        font-size: 25px;
-    }
-    .key_skills .programmer{
-        position: relative;
-        left: 125px;
-    }
 
-    .key_skills .prog_label{
-        position: relative;
-        left: 120px;
-    }
 
-    .nav li ul{
-        position: relative;
-        right: -20px;
-    }
+@media only screen and (min-width: 600px) {
+h2{
+    font-size: 20px;
+    position: relative;
+    left:-30px;
 }
-
-@media only screen and (min-width: 1052px){
-    h2{
-        position: relative;
-        left: -10px;
-        top:   -120px;
-    }
-    .key_skills .programmer{
-        position: relative;
-        bottom: -150px;
-        left: 20px
-    }
-    .key_skills .prog_label{
-        position: relative;
-        bottom: -130px;
-        left: 25px;
-    }
+.key_skills .programmer{
+    width: 150px;
+    position: relative;
+    left: 60px;
 }
-
-@media only screen and (min-width: 1920px){
-    h2{
-        position: relative;
-        left:  100px
-    }
-    .key_skills .programmer{
-        position: relative;
-        bottom: -100px
-    }
-    .key_skills .prog_label{
-        position: relative;
-        bottom: -50px;
-    }
+.key_skills .prog_label{
+    font-size: 30px;
+    position: relative;
+    left: 40px;
 }
-
-#text{
-    text-align: right;
-}
-
-nav{
-    width: auto;
 }
