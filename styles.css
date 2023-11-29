@@ -222,22 +222,27 @@ h2 {
         width: 600px;
     }
 
-    .key_skills .programmer {
-        position: relative;
-        width: 150px;
-        left: 65px;
-        top: -20px
-    }
-
-    .key_skills .prog_label {
-        position: relative;
-        font-size: 25px;
-        left: -10px;
-        top: 20px;
-        top: -50px;
-    }
 }
+@media only screen and (min-width: 300px) {
+    h2 {
+        position: relative;
+        left: -340px;
+        top: -10px;
+        font-size: 20px;
+        width: 550px;
+    }
+    .key_skills .programmer{
+        position: relative;
+        width: 120px ;
+        left: 50px;
+        top: -20px;
+    }
+    .key_skills .prog_label{
+       top: -40px;
+       right: 40px;
+    }
 
+}
 @media only screen and (min-width: 566px) {
     h2{
         position: relative;
