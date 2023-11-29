@@ -167,10 +167,10 @@ h2 {
 @media only screen and (min-width: 360px) {
     h2 {
         position: relative;
-        left: -395px;
+        left: -370px;
         top: -10px;
-        font-size: 12px;
-        width: 700px;
+        font-size: 15px;
+        width: 650px;
     }
 
     .key_skills .programmer {
@@ -196,6 +196,30 @@ h2 {
         top: -10px;
         font-size: 20px;
         width: 700px;
+    }
+
+    .key_skills .programmer {
+        position: relative;
+        width: 150px;
+        left: 65px;
+        top: -20px
+    }
+
+    .key_skills .prog_label {
+        position: relative;
+        font-size: 25px;
+        left: -10px;
+        top: 20px;
+        top: -50px;
+    }
+}
+@media only screen and (min-width: 357px) {
+    h2 {
+        position: relative;
+        left: -320px;
+        top: -10px;
+        font-size: 20px;
+        width: 600px;
     }
 
     .key_skills .programmer {
