@@ -191,6 +191,10 @@ nav{
        right: 40px;
     }
 
+    .card{
+        width:100px;
+        margin-right: 100px;
+    }
 }
 
 
@@ -210,4 +214,15 @@ h2{
     position: relative;
     left: 40px;
 }
+.card{
+    width:300px;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+}
+
+.card{
+    width:400px;
+    margin-left: 95px;
+    margin-top: 20px;
 }
