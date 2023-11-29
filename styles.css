@@ -164,6 +164,31 @@ h2 {
 
 
 /* Responsive design  */
+@media only screen and (min-width: 360px) {
+    h2 {
+        position: relative;
+        left: -395px;
+        top: -10px;
+        font-size: 12px;
+        width: 700px;
+    }
+
+    .key_skills .programmer {
+        position: relative;
+        width: 150px;
+        left: 65px;
+        top: -20px
+    }
+
+    .key_skills .prog_label {
+        position: relative;
+        font-size: 25px;
+        left: -10px;
+        top: 20px;
+        top: -50px;
+    }
+}
+
 @media only screen and (min-width: 375px) {
     h2 {
         position: relative;
@@ -247,4 +272,8 @@ h2 {
 
 #text{
     text-align: right;
+}
+
+nav{
+    width: auto;
 }
