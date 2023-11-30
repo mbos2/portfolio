@@ -173,37 +173,67 @@ nav{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
     h2{
         position: relative;
-        left: -290px;
+        left: -390px;
         top: 60px;
         width: 700px;
         height: 400px;
     }
     .key_skills .programmer{
-        left: 130px;
+        left: 40px;
     }
     .key_skills .prog_label{
-        left:70px;
+        left:-20px;
         top: 40px;
     }
 }
+
+
+
     
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 1200px){
     h2{
         position: relative;
-        left: -370px;
-        top: 60px;
-        width: 700px;
-        height: 400px;
+        left: px;
+        width: 950px;
     }
     .key_skills .programmer{
-        left: 50px;
+        top: 80px;
     }
     .key_skills .prog_label{
-        left:-10px;
-        top: 40px;
+        top: 100px;
+        left: -50px;
     }
 }
-    
+
+@media only screen and (min-width: 1600px){
+    h2{
+        position: relative;
+        left: 200px;
+        width: 1200px;
+    }
+    .key_skills .programmer{
+        top: 80px;
+    }
+    .key_skills .prog_label{
+        top: 100px;
+        left: -20px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    h2{
+        position: relative;
+        left: 200px;
+        width: 1700px;
+    }
+    .key_skills .programmer{
+        top: 80px;
+    }
+    .key_skills .prog_label{
+        top: 100px;
+        left: 5px;
+    }
+}
