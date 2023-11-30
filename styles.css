@@ -176,21 +176,21 @@ nav{
 @media only screen and (max-width: 375px) {
     h2{
         position: relative;
-        left: -390px;
+        left: -360px;
         top: 60px;
-        width: 700px;
-        height: 400px;
+        width: 600px;
+        height: 500px;
     }
     .key_skills .programmer{
-        left: 40px;
+        left: 20px;
     }
     .key_skills .prog_label{
-        left:-20px;
+        left:-5px;
         top: 40px;
+        font-size: 30px;
     }
 }
-
-
+    
 
     
 @media only screen and (min-width: 1200px){
