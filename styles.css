@@ -59,7 +59,8 @@ nav{
 .other_page {
     text-align: center;
     padding-top:100px;
-    font-size: 5rem;
+    margin-bottom: 200px;
+    font-size: 3rem;
     color: #fff;
     text-decoration: underline;
 }
@@ -153,7 +154,7 @@ h2 {
     background-color: #1cc99bd0;
     margin-left: 30px;
     margin-right: 20px;
-    top: 10px;
+    top: -150px;
     border: 5px solid black;
     border-radius: 10px;
 }
@@ -172,13 +173,38 @@ nav{
 }
 
 /* Responsive design  */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 600px) {
+    h2{
+        font-size: 20px;
+        position: relative;
+        left:-30px;
+    }
+    .key_skills .programmer{
+        width: 150px;
+        position: relative;
+        left: 60px;
+    }
+    .key_skills .prog_label{
+        font-size: 30px;
+        position: relative;
+        left: 40px;
+    }
+    .card{
+        width:300px;
+        margin-left: 95px;
+        margin-top: 20px;
+    }
+    }
+    
+
+    
+@media only screen and (min-width: 300px) {
     h2 {
         position: relative;
-        left: -340px;
+        left: -370px;
         top: -10px;
         font-size: 20px;
-        width: 550px;
+        width: 600px;
     }
     .key_skills .programmer{
         position: relative;
@@ -188,7 +214,7 @@ nav{
     }
     .key_skills .prog_label{
        top: -40px;
-       right: 40px;
+       right:15px;
     }
 
     .card{
@@ -198,29 +224,3 @@ nav{
 }
 
 
-@media only screen and (min-width: 600px) {
-h2{
-    font-size: 20px;
-    position: relative;
-    left:-30px;
-}
-.key_skills .programmer{
-    width: 150px;
-    position: relative;
-    left: 60px;
-}
-.key_skills .prog_label{
-    font-size: 30px;
-    position: relative;
-    left: 40px;
-}
-.card{
-    width:300px;
-    margin-left: 95px;
-    margin-top: 20px;
-}
-}
-
-.row{
- 
-}
