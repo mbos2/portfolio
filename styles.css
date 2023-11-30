@@ -218,9 +218,20 @@ nav{
     }
 }
 
-@media (min-width: 700px){
-    .h2{
+@media (max-width: 1000px){
+    h2{
         position: relative;
-        width: 200000px;
+        left: -190px;
+        top: 50px;
+        height: 500px;
+    }
+    .key_skills .programmer{
+        position: relative;
+        left: 180px;
+    }
+    .key_skills .prog_label{
+        position: relative;
+        top: 60px;
+        left: 120px;
     }
 }
