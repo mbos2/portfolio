@@ -172,23 +172,23 @@ nav{
     width: auto;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     h2{
         position: relative;
-        left: -395px;
+        left: -390px;
         top: 50px;
-        width: 650px;
+        width: 600px;
         height: 400px;
         text-align: center;
     }
     .key_skills .programmer{
         position: relative;
-        left: 20px;
+        left: 7px;
         top: 5px;
     }
     .key_skills .prog_label{
         position: relative;
-        right: 25px;
+        right: 40px;
     }
 }
 
