@@ -175,19 +175,20 @@ nav{
 @media only screen and (max-width: 450px){
     h2{
         position: relative;
-        left: -360px;
+        left: -395px;
         top: 50px;
         width: 650px;
         height: 400px;
+        text-align: center;
     }
     .key_skills .programmer{
         position: relative;
-        left: 40px;
+        left: 20px;
         top: 5px;
     }
     .key_skills .prog_label{
         position: relative;
-        right: 10px;
+        right: 25px;
     }
 }
 
@@ -222,6 +223,18 @@ nav{
     }
 }
 
+@media only screen and (min-width: 1024px){
+    h2{
+        left: -80px;
+    }
+    .key_skills .programmer{
+        left: 320px;
+    }
+    .key_skills .prog_label{
+        left: 289px;
+    }
+}
+
 
     
 @media only screen and (min-width: 1193px){
@@ -239,7 +252,7 @@ nav{
     }
 }
 
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 9920px){
     h2{
         position: relative;
         left: 200px;
