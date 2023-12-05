@@ -3,47 +3,6 @@
     background-color: rgb(23, 162, 164);
 }
 
-.back_video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -5;
-}
-
-
-nav li ul a {
-    list-style: none;
-    text-decoration: none;
-    top: 100px;
-    margin: 16px;
-    color: White;
-}
-
-nav li ul {
-    text-align: right;
-    display: inline;
-    list-style: none;
-    padding-right: 50px;
-    background-color: #1cc99bd0;
-    margin: 2px 10px;
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 6px;
-}
-
-nav li {
-    list-style: none;
-    text-align: right;
-    font-weight: Bold;
-    font-size: 15px;
-    padding-bottom: 100px;
-
-}
-
-nav{
-    padding-top: 3%;
-}
-
 .intro welcome {
     background-color: yellow;
 }
@@ -58,7 +17,7 @@ nav{
 
 .other_page {
     text-align: center;
-    padding-top:100px;
+    padding-top: 100px;
     margin-bottom: 200px;
     font-size: 3rem;
     color: #fff;
@@ -82,10 +41,6 @@ nav{
 .resume-btn:hover {
     opacity: 0.9;
     color: #79c8e8;
-}
-
-nav li ul a:hover {
-    color: black
 }
 
 .skills {
@@ -114,7 +69,6 @@ nav li ul a:hover {
     background-color: rgba(128, 128, 128, 0.884);
     text-align: center;
     font-size: 25px;
-
     border: 5px solid rgba(76, 176, 252, 0.66);
     border-radius: 10px;
     font-weight: bold;
@@ -122,178 +76,51 @@ nav li ul a:hover {
 
 }
 
-.key_skills .programmer {
-    position: relative;
-    width: 200px;
-    height: 210px;
-    margin-left: 6%;
-    top: 40px;
-    
-}
-
-.key_skills .prog_label {
-    position: relative;
-    margin-left: 95px;
-    top: 20px;
-    bottom: -90px;
-    
-}
-
-h2 {
-    position: relative;
-    border-radius: 5px;
-    top: -100px;
-    left: 150px;
-    padding-left: 400px;
-    border-radius: 10px;
-    color: #fff;
-}
-
-.section {
-    position: relative;
-    background-color: #1cc99bd0;
-    margin-left: 30px;
-    margin-right: 20px;
-    top: -150px;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-.spacer {
-    padding-bottom: 20px;
-}
 
 
-#text{
+p {
+    position: absolute;
     text-align: right;
+    font-size: 30px;
+    size: 20px;
+    color: #fff;
+    width: 50%;
+    margin-left: 700px;
+    top: 500px;
+    font-weight: bold;
 }
 
-nav{
-    width: auto;
+.programmer {
+    position: absolute;
+    width: 200px;
+    margin-left: 200px;
+    top: 450px;
 }
 
-.card {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
+.row{
+    background-color: #79c8e8;
+    margin-right: 100px;
+}
 
+.aboutme_text{
+position: flex;
+width: 1000px;
+margin-top: -40px;
+margin-left:32%;
+}
 
-@media only screen and (max-width: 500px){
-    h2{
-        position: relative;
-        left: -390px;
-        top: 50px;
-        width: 600px;
-        height: 400px;
+@media only screen and (max-width: 600px) {
+    .programmer{
+        display: -ms-inline-flexbox;
+        margin-top: -200px;
+        margin-left:5rem;
+        height: auto;
+    }
+    .aboutme_text{
+        display: -ms-inline-flexbox;
+        margin-left: 15px;
         text-align: center;
     }
-    .key_skills .programmer{
-        position: relative;
-        left: 7px;
-        top: 5px;
-    }
-    .key_skills .prog_label{
-        position: relative;
-        right: 40px;
-    }
-    .card{
-        
-    }
-        
-    }
-
-@media only screen and (min-width: 600px){
-    h2{
-        position: relative;
-        left: -220px;
-        width: 800px;
-        top: 60px;
-        height: 400px;
-    }
-    .key_skills .programmer{
-        position: relative;
-        left: 200px
-    }
-    .key_skills .prog_label{
-        top: 40px;
-        left: 165px;
-    }
-
-}
-
-@media only screen and (min-width: 1047px){
-    h2{
-        left: -80px;
-    }
-    .key_skills .programmer{
-        left: 320px;
-    }
-    .key_skills .prog_label{
-        left: 289px;
-    }
-}
-
-@media only screen and (min-width: 1024px){
-    h2{
-        left: -80px;
-    }
-    .key_skills .programmer{
-        left: 320px;
-    }
-    .key_skills .prog_label{
-        left: 289px;
-    }
 }
 
 
-    
-@media only screen and (min-width: 1193px){
-    h2{
-        position: relative;
-        left: px;
-        width: 950px;
-    }
-    .key_skills .programmer{
-        top: 80px;
-    }
-    .key_skills .prog_label{
-        top: 100px;
-        left: -50px;
-    }
-}
-
-@media only screen and (min-width: 9920px){
-    h2{
-        position: relative;
-        left: 200px;
-        width: 1200px;
-        height: 200px;
-        top: -100px;
-    }
-    .key_skills .programmer{
-        top: 80px;
-    }
-    .key_skills .prog_label{
-        top: 100px;
-        left:80px;
-    }
-}
-
-@media only screen and (min-width: 1200px){
-    h2{
-        position: relative;
-        left: 200px;
-        width: 1700px;
-    }
-    .key_skills .programmer{
-        top: 80px;
-    }
-    .key_skills .prog_label{
-        top: 100px;
-        left: 5px;
-    }
-}
