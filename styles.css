@@ -78,49 +78,76 @@
 
 
 
-p {
+.aboutme_text{
     position: absolute;
-    text-align: right;
-    font-size: 30px;
     size: 20px;
-    color: #fff;
     width: 50%;
-    margin-left: 700px;
     top: 500px;
     font-weight: bold;
 }
 
 .programmer {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-top:-150px;
+    margin-right: auto;
     width: 200px;
-    margin-left: 200px;
-    top: 450px;
 }
 
-.row{
-    background-color: #79c8e8;
-    margin-right: 100px;
+
+
+.aboutme_text {
+    display: block;
+    text-align: center;
+    width: 1000px;
+   font-weight: bold;
+   font-size: 30px;
+       color: #fff;
+       margin-left:180px;
 }
 
-.aboutme_text{
-position: flex;
-width: 1000px;
-margin-top: -40px;
-margin-left:32%;
+#cards{
+    margin-left: 5px;
+    margin-right:5px;
 }
+
+#cards-outline{
+    border: 10px solid black;
+    border-radius: 5px;
+    background-color: #00b484;
+}
+
+#button{
+    width: 100px;
+}
+
 
 @media only screen and (max-width: 600px) {
-    .programmer{
-        display: -ms-inline-flexbox;
-        margin-top: -200px;
-        margin-left:5rem;
-        height: auto;
-    }
+  .aboutme_text{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
     .aboutme_text{
-        display: -ms-inline-flexbox;
-        margin-left: 15px;
-        text-align: center;
+        margin-left: 10px;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .aboutme_text{
+        margin-left: 10px;
+    }
+}
 
+@media only screen and (min-width: 992px) {
+    .aboutme_text{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .aboutme_text{
+        margin-left:350px;
+    }
+}
