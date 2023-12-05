@@ -126,6 +126,14 @@
   .aboutme_text{
     margin-left: 10px;
   }
+  .Welcome{
+    font-size: 40px;
+  }
+  .resume-btn{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
