@@ -146,6 +146,20 @@
     margin-left: 180px;
  }
 
+ #contact_input{
+    border: 5px solid black;
+    border-radius: 10px;
+    color: black;
+ }
+
+ #button_submit{
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+   
+ }
+
 @media only screen and (max-width: 600px) {
     .aboutme_text {
         margin-left: 10px;
@@ -164,11 +178,17 @@
     #button {
         margin-left: 7px;
     }
+    #contact_input{
+       margin: 5px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .aboutme_text {
         margin-left: 10px;
+    }
+    #contact_input{
+       margin: 5px;
     }
   
 }
@@ -181,6 +201,9 @@
     #button {
         margin-left: 30px;
     }
+    #contact_input{
+        margin: 20px;
+     }
 }
 
 @media only screen and (min-width: 992px) {
@@ -190,6 +213,9 @@
     #button{
         align-items: center;
     }
+    #contact_input{
+        margin: 20px;
+     }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -201,4 +227,8 @@
     #button {
         margin-left: 150px;
     }
+    #contact_input{
+        margin-left: 200px;
+        margin-right: 200px;
+     }
 }
