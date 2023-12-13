@@ -153,7 +153,14 @@
     color: black;
 }
 
-
+#button_work{
+    display: block;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: auto;
+        width: 200px;
+}
 
 #card_move {
     padding-top: 2000px;
@@ -260,4 +267,5 @@
         margin-left: 200px;
         margin-right: 200px;
     }
+
 }
