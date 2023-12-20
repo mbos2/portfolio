@@ -3,17 +3,6 @@
     background-color: #29ab87;
 }
 
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-  }
 
 .intro welcome {
     background-color: yellow;
